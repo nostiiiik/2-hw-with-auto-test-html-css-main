@@ -5,14 +5,10 @@
     /* Свойства для сброса начальных стилей элементов */
 }
 
-html {
-    font-family: "Inter", sans-serif;
-    color: #303030;
-}
 
 body {
-    color: #303030;
     font-family: "Inter", sans-serif;
+    color: #303030;
 }
 
 header {
@@ -43,7 +39,7 @@ header span {
 .main-title {
     font-weight: 700;
     font-size: 48px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     /* Стили для заголовка в первой секции */
 }
 
@@ -89,12 +85,13 @@ select {
 .section-title {
     font-weight: 700;
     font-size: 24px;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
+
     /* Стили для заголовков во второй секции */
 }
 
 .frameworks-list {
-    padding-left: 20px;
+    padding: 0px 20px;
     list-style-image: url("./assets/images/list.svg");
     font-weight: 400;
     font-size: 16px;
@@ -102,7 +99,7 @@ select {
 }
 
 .books-list {
-    padding-left: 20px;
+    padding: 0px 20px;
     font-weight: 400;
     font-size: 16px;
     /* Стили для нумерованного списка во второй секции */
@@ -149,6 +146,7 @@ table {
     width: 300px;
     height: 196px;
     border-collapse: collapse;
+    font-size: 14px;
     /* Стили для таблицы */
 }
 
@@ -157,13 +155,14 @@ th{
     font-size: 14px;
     text-align: center;
     border: 1px solid #95a1bb;
+    padding: 12px 15px;
 }
 td {
     padding-left: 15px;
     font-weight: 400;
     font-size: 14px;
     border: 1px solid #95a1bb;
-
+    padding: 12px 15px;
     /* Стили для ячеек таблицы */
 }
 
