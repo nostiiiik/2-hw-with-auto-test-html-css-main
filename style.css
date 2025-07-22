@@ -5,9 +5,14 @@
     /* Свойства для сброса начальных стилей элементов */
 }
 
-body {
+html {
     font-family: "Inter", sans-serif;
     color: #303030;
+}
+
+body {
+    color: #303030;
+    font-family: "Inter", sans-serif;
 }
 
 header {
